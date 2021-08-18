@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+.camptitle{
+    line-height: 15px;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.logo1{
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.logo2{
+    /* margin-top: 15px; */
+    width: 100%;
+    height: 50%;
+}
+
+.campheadersection{
+    background-color: beige;
+
+}
+
+.intro{
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background-color: beige;
+}
+
+.campplacerecommend{
+    line-height: 15px;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.campplacedetail{
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.fukushimamap{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aizutitle{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.aizucampphoto{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: black;
+    text-align: center;
+    line-height: 20px;
+}
+
+.aizu1{
+    font-weight: bold;
+}
+/* .aizu1detail{
+    margin-top: 10px;
+    line-height: 20px;
+} */
+
+.aizu2{
+    font-weight: bold;
+}
+/* .aizu2detail{
+    margin-top: 10px;
+    line-height: 20px;
+} */
+
+.aizu3{
+    font-weight: bold;
+}
+/* .aizu3detail{
+    margin-top: 10px;
+    line-height: 20px;
+} */
+
+.nakadorititle{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.nakadoricampphoto{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nakadori1{
+    font-weight: bold;
+}
+
+.nakadori2{
+    font-weight: bold;
+}
+
+.nakadori3{
+    font-weight: bold;
+}
+
+.hamadorititle{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.hamadoricampphoto{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 20px;
+}
+
+.hamadori1{
+    font-weight: bold;
+}
+
+.hamadori2{
+    font-weight: bold;
+}
+
+.hamadori3{
+    font-weight: bold;
+}
+
+/* .campomikuji{
+    background-color: rgb(148, 173, 219);
+} */
+
+.omikujititle{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.omikujicomment{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.omikujicomment1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.omikujibutton{
+    margin-left: 670px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.omikujicamptool{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.omikujiresult{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.omikujidetail{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.footerword{
+    font-size: 20px;
+    background-color:yellow;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* #aizu, #naka, #hama {
+    overflow: hidden;
+    height: 0;
+} */

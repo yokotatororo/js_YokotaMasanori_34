@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FukushimaCamp</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo1">
+            <img src="img/F-Camp - MarkMaker Logo.png" alt="">
+        </div>
+            <nav>
+              <img class="logo2" src="img/imgmain1.jpeg" alt="">
+            </nav>
+    </header>
+        <div class="campheadersection">
+            <h1 class="camptitle">ふくしまキャンプ</h1>
+            <!-- 音楽が流れる機能はあとで -->
+            <!-- <audio type="audio/mpeg" src="audio/summer.mp3" controls></audio> -->
+                <div class="intro">
+                    <p>福島県、そこは自然豊かな県でした。</p>
+                    <p>東北最南の県、福島県には山、海、川、湖全ての自然が存在します。</p>
+                    <p>そんな自然の中で、非日常的なキャンプ体験をしませんか。
+                    <br>F-Campでは、福島県でキャンプをしたい皆さんに有意義な情報を面白おかしく提供します。</p>
+                </div>
+        </div>
+
+        <!-- 福島地図 -->
+        <section> 
+            <h1 class="campplacerecommend">おすすめのキャンプ場紹介</h1>
+                <div class="campplacedetail">
+                    <p>福島県は3つの地域に分かれています。</p>
+                    <p>ここでは、会津、中通り、浜通りそれぞれでおすすめのキャンプ場を紹介します。</p>
+                    <p>地図の中で行きたい地域をクリックすると、その地域のおすすめのキャンプ場を紹介するよ。</p>
+                </div>
+            <div class = "fukushimamap">
+                <img id="fukushimamap2" src="img/img1.jpg" usemap="#image-map">
+            </div>
+            <map name="image-map">
+                <area  id="aizubutton" onclick="clickBtn1()" target="#" alt="aizu" title="aizu" href="#fukushimamap2" coords="80,317,70,305,77,289,82,271,86,255,81,242,92,236,106,232,120,227,134,220,145,215,160,215,179,214,194,202,191,186,190,174,186,163,197,160,204,152,211,142,216,132,225,127,229,116,239,106,250,106,268,106,284,106,298,106,307,112,321,115,332,121,343,123,353,126,365,127,373,128,383,130,389,136,395,147,399,156,399,163,391,174,381,183,375,194,372,204,378,211,378,220,378,228,370,234,371,245,370,257,362,259,354,270,353,282,351,291,340,299,326,300,316,308,311,318,301,323,282,323,272,333,259,339,257,346,244,349,223,355,209,361,198,367,185,374,172,384,156,388,144,391,135,397,116,398,104,397,94,393,91,382" shape="poly">
+                <area  id="nakadoributton" onclick="clickBtn2()" target="#" alt="nakadori" title="nakadori" href="#fukushimamap2" coords="459,437,445,434,434,419,413,414,408,403,401,378,378,364,359,339,324,331,323,322,356,301,358,277,386,256,384,237,389,195,404,176,412,155,414,115,407,118,420,102,413,80,415,60,428,53,441,52,458,51,468,61,487,67,501,67,513,67,527,72,531,83,533,100,533,115,528,158,540,171,537,185,537,205,550,214,569,222,584,227,587,241,587,246,561,241,542,247,544,266,537,288,528,301,513,309,512,327,515,336,524,347,520,364,499,398,499,414,491,430,476,444,462,446,453,445" shape="poly">
+                <area  id="hamadoributton" onclick="clickBtn3()" target="#" alt="hamadori" title="hamadori" href="#fukushimamap2" coords="546,107,546,128,537,142,540,150,544,159,549,170,548,185,553,195,571,202,587,212,590,227,590,239,586,255,562,255,554,258,552,277,540,283,524,310,527,329,535,345,534,360,518,381,512,389,515,406,530,413,544,418,558,423,570,428,585,415,607,400,617,383,623,358,628,335,633,311,637,295,642,270,644,251,644,227,644,204,638,180,638,167,638,147,639,132,638,118,623,104,620,81,607,73" shape="poly">
+            </map>
+        </section>
+
+        <!--各地域のキャンプ場説明  -->
+        <section>
+            <div id="aizu">
+                <h2 class="aizutitle">-会津のおすすめキャンプ場-</h2>
+                <div class="aizucampphoto">
+                    <div>
+                      <a href="http://www.aizukogen-yume.jp/sanson/camp.html">
+                        <img src="img/aiimg1.jpg">
+                        <p class="aizu1">うさぎの森オートキャンプ場</p>
+                      </a>
+                      <!-- <p class="aizu1detail">山の中で自然を感じながら静かなひと時を
+                      <br>過ごしたい方におすすめです。設備も綺麗なので
+                      <br>キャンプ初心者でも安心なキャンプ場です。</p> -->
+                    </div>
+                    <div> 
+                      <a href="https://aizu-misato.jp/leisure/seseragi_autocamp/">
+                        <img src="img/aiimg2.jpg">
+                        <p class="aizu2">せせらぎ公園オートキャンプ場</p>
+                      </a>
+                      <!-- <p class="aizu2detail">会津若松市内の近くに位置するこのキャンプ場は
+                      <br>スーパーやコンビニが近くあり、家族づれや
+                      <br>キャンプ初心者にもおすすめのキャンプ場です！</p> -->
+                    </div>
+                    <div>
+                      <a href="http://tadamikousya.sakura.ne.jp/ikoiforest/about_access/">
+                        <img src="img/aiimg3.jpg">
+                        <p class="aizu3">奥会津ただみの森キャンプ場</p>
+                      </a>
+                      <!-- <p class="aizu3detail">奥会津の山奥に位置するキャンプ場です。
+                      <br>秋には紅葉を見ながらキャンプという
+                      <br>最高の過ごし方ができます。冬は豪雪地帯により
+                      <br>キャンプは難しいような気がします。</p> -->
+                    </div>
+                </div>
+            </div>
+            <div id="nakadori">
+                <h2 class="nakadorititle">-中通りのおすすめキャンプ場-</h2>
+                <div class="nakadoricampphoto">
+                    <div>
+                      <a href="http://f-takasino.jp/">
+                        <img src="img/nakaimg1.jpeg" alt="">
+                        <p class="nakadori1">郡山市高篠山森林公園</p>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://abucam.co.jp/">
+                        <img src="img/nakaimg2.jpg" alt="">
+                        <p class="nakadori2">ACNあぶくまキャンプランド</p>
+                      </a>
+                    </div>
+                    <div>
+                      <img src="img/nakaimg3.jpg" alt="">
+                      <a href="https://www.qkamura.or.jp/bandai/">
+                        <p class="nakadori3">休暇村裏磐梯キャンプ場</p>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div id="hamadori">
+                <h2 class="hamadorititle">-浜通りのおすすめキャンプ場-</h2>
+                <div class="hamadoricampphoto">
+                    <div>
+                      <a href="https://www.pref.fukushima.lg.jp/sec/41380a/kodamadam-shuuhenshisetsu.html">
+                        <img src="img/hamaimg1.jpg" alt="">
+                        <p class="hamadori1">小玉ダムキャンプ場</p>
+                      </a>
+                    </div>
+                    <div> 
+                    <a href="http://tohno-autcamp.com/">
+                      <img src="img/hamaimg2.jpg" alt="">
+                      <p class="hamadori2">遠野オートキャンプ場</p>
+                    </a>
+                    </div>
+                    <div>
+                    <a href="http://www.city.iwaki.lg.jp/www/contents/1473061071273/index.html">
+                      <img src="img/hamaimg3.jpg" alt="">
+                      <p class="hamadori3">田人ふれあいの里キャンプ場</p>
+                    </a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- CAMP占い -->
+        <div class="campomikuji">
+            <h2 class="omikujititle">キャンプ道具占い</h2>
+            <p class="omikujicomment">キャンプに行く前に占いをしてみよう</p>
+            <p class="omikujicomment1">下のスタートボタンを押すとラッキーアイテムを紹介するよ。</p>
+            <form>
+                <input class="omikujibutton" type="button" value="スタート" onClick="random()">
+                <div class = "omikujicamptool"id="omikujicamptool"></div>
+                <div class = "omikujiresult"id="omikuji"></div>
+                <div class = "omikujidetail"id="omikujidetail"></div>
+            </form>
+        </div>  
+
+    
+    </main>
+
+    <footer class="footerword">
+        copyrights 2021 F-Camp All RIghts Reserved.
+    </footer>
+
+<!-- JS開始 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- 福島地図を縮小拡大した時の対応 -->
+<!-- <script src="js/jquery.rwdImageMaps.js"></script> -->
+<!-- 地区を選択して検索ボタンを押す。地区によっておすすめのキヤンプ場を表示させる -->
+
+<script>
+    //初期表示は非表示
+    document.getElementById("aizu").style.visibility ="hidden";
+    document.getElementById("aizu").style.height ="0";
+
+    function clickBtn1(){
+        const aizucamp = document.getElementById("aizu");
+
+        if(aizucamp.style.visibility=="visible"){
+            // hiddenで非表示
+            aizucamp.style.visibility ="hidden";
+            aizucamp.style.height ="0";
+        }else{
+            // visibleで表示
+            aizucamp.style.visibility ="visible";
+            aizucamp.style.height ="auto";
+        }
+    }
+
+    document.getElementById("nakadori").style.visibility ="hidden";
+    document.getElementById("nakadori").style.height ="0";
+
+    function clickBtn2(){
+        const nakadoricamp = document.getElementById("nakadori");
+
+        if(nakadoricamp.style.visibility=="visible"){
+            // hiddenで非表示
+            nakadoricamp.style.visibility ="hidden";
+            nakadoricamp.style.height ="0";
+        }else{
+            // visibleで表示
+            nakadoricamp.style.visibility ="visible";
+            nakadoricamp.style.height ="auto";
+        }
+    }
+
+    document.getElementById("hamadori").style.visibility ="hidden";
+    document.getElementById("hamadori").style.height ="0";
+
+    function clickBtn3(){
+        const hamadoricamp = document.getElementById("hamadori");
+
+        if(hamadoricamp.style.visibility=="visible"){
+            // hiddenで非表示
+            hamadoricamp.style.visibility ="hidden";
+            hamadoricamp.style.height ="0";
+        }else{
+            // visibleで表示
+            hamadoricamp.style.visibility ="visible";
+            hamadoricamp.style.height ="auto";
+        }
+    }
+
+  
+    function random() {
+        var rand = Math.floor( Math.random() * 5) ; //おみくじの目の生成
+            if (rand == 0){
+                msg = '<img src="img/camp1.jpg" align="middle">';
+                msg2 = 'ラッキーアイテムはランタン！キャンプに行く前にランタンを新調するといいことあるかも';
+                msg3 = 'ランタン';
+            }           
+            if (rand == 1) {
+                msg = '<img src="img/camp2.jpg" align="middle">';
+                msg2 = 'ラッキーアイテムはテント！キャンプに行く前にテントを綺麗にしておくといいことあるかも';
+                msg3 = 'テント';
+            }
+            if (rand == 2) {
+                msg = '<img src="img/camp3.jpeg" align="middle">';
+                msg2 = 'ラッキーアイテムは焚き火台！焚き火をしていつもより少し長く炎を眺めて見るといいことあるかも';
+                msg3 = '焚き火台';
+            }
+            if (rand == 3) {
+                msg = '<img src="img/camp4.jpg" align="middle">';
+                msg2 = 'ラッキーアイテムはシュラフ！キャンプに行く前にシュラフを干して置くといいことあるかも';
+                msg3 = 'シュラフ';
+            }
+            if (rand == 4) {
+                msg = '<img src="img/camp5.jpg" align="middle">';
+                msg2 = 'ラッキーアイテムはチェア！キャンプに行く前にチェアを綺麗にして置くといいことあるかも';
+                msg3 = 'チェア';
+            }
+            document.getElementById("omikuji").innerHTML = msg; //キャンプ道具の写真
+            document.getElementById("omikujidetail").innerHTML = msg2; //おみくじ詳細の説明
+            document.getElementById("omikujicamptool").innerHTML = msg3; //おみくじタイトル
+        }
+    // 音楽を流す機能は一旦あとで
+    // window.addEventListener('DOMContentLoaded', function(){
+    //     const audioElement = document.querySelector("audio");
+    //     audioElement.addEventListener('loadeddata', (e)=> {
+    //     audioElement.muted = true;
+    //     audioElement.autoplay = true;
+    //     });
+    // });
+    
+    
+
+</script>
+
+</body>
+</html>
